@@ -7,12 +7,11 @@ hr {
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
-  width: 75%
+  width: 33%
 }
 
 h1 {
   color: #66BFBF;
-  background-color: white;
 }
 
 h3 {
@@ -20,10 +19,22 @@ h3 {
 }
 
 th {
-text-align: left;
+  text-align: left;
 }
 
+/********************************Class Selectors****************************/
+.content {
+  max-width: 825px;
+  margin: auto;
+}
 
 .profpic {
-  border-radius: 100%;
+  border-radius: 20%;
+}
+
+.line {
+  border-style: inset;
+  border-color: black;
+  border-width: thin;
+  width: 33%
 }
